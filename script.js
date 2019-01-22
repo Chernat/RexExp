@@ -8,7 +8,7 @@ console.log(time.match(/2[0-3]:[0-5]\d|[0-1]*\d:[0-5]\d/));
 
 var arithmetic = '1 + 2',
     arithmeticTwo = '-3 / 3',
-    arithmeticThree = '-3 3'
+    arithmeticThree = '-3 3';
 
 console.log(arithmetic.match(/(-?\d+(?:\.\d+)?)\s*([-+*\/])\s*(-?\d+(?:\.\d+)?)/));
 console.log(arithmeticTwo.match(/(-?\d+(?:\.\d+)?)\s*([-+*\/])\s*(-?\d+(?:\.\d+)?)/));
